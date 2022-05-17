@@ -1,0 +1,25 @@
+<main id="sculpture">
+  <header>
+    <h2>{{ title }}</h2>
+    <p>{{ period }}</p>
+    {{# captioning }}
+    <p>{{ . }}</p>
+    {{/ captioning }}
+  </header>
+
+  <nav>
+    <ul class="thumbnails undecorated">
+      {{# images }}
+      <li>
+        <img src="{{{ source }}}" alt="" />
+      </li>
+      {{/ images }}
+    </ul>
+  </nav>
+
+  <section>
+    {{# images }}
+    <img src="{{{ source }}}" alt="" />
+    {{/ images }}
+  </section>
+</main>

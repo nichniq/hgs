@@ -1,0 +1,21 @@
+<main id="periods-main">
+  <nav id="periods">
+    <section class="highlight">
+      {{# highlight }}
+      <a href="{{{ link }}}">
+        <h2>{{ title }}</h2>
+        <img src="{{{ image }}}" alt="" />
+      </a>
+      {{/ highlight }}
+    </section>
+
+    <section class="past">
+      {{# periods }}
+      <a href="{{{ link }}}">
+        <h2>{{ title }}</h2>
+        <img src="{{{ image }}}" alt="" />
+      </a>
+      {{/ periods }}
+    </section>
+  </nav>
+</main>
