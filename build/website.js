@@ -32,7 +32,7 @@ const summary = period => ({
 });
 
 page_at(
-  website.root("index.html")
+  "website/index.html",
 ).titled(
   "Herbert George Sculpture"
 ).of(
@@ -52,7 +52,7 @@ for (const period of [ recent_work, ...past_work ]) {
   // render a page for each period
 
   page_at(
-    website.period(`${period.id}.html`)
+    `website/periods/${period.id}.html`,
   ).titled(
     period.title
   ).of(
@@ -73,7 +73,7 @@ for (const period of [ recent_work, ...past_work ]) {
 
   for (const sculpture of Object.values(sculptures)) {
     page_at(
-      website.sculpture(`${sculpture.id}.html`)
+      `website/sculptures/${sculpture.id}.html`
     ).titled(
       sculpture.title
     ).of(

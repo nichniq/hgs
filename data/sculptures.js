@@ -1,6 +1,6 @@
 export const blind_hand_l_sander = {
   title: "Blind Hand L. Sander",
-  id: "blind-hand-l.-sander",
+  id: "blind-hand-l-sander",
   info: {
     year: "2003",
     materials: "Marble",
@@ -275,12 +275,13 @@ export const g_j_hand_mouth = {
       source: "sculpture/gj-hand-mouth_10-1.jpg",
       captioning: [ "Detail and shadow." ]
     }
-  ]
+  ],
+  thumbnail: { source: "images2/gj-hand-mouth_thumb.jpg" },
 };
 
 export const g_stein_portrait = {
   title: "G. Stein Portrait",
-  id: "g.-stein-portrait",
+  id: "g-stein-portrait",
   info: {
     year: "2000",
     materials: "Marble and Wood",
@@ -405,7 +406,7 @@ export const light_reflection_space = {
 
 export const m_duchamp_portrait = {
   title: "M. Duchamp Portrait",
-  id: "m.-duchamp-portrait",
+  id: "m-duchamp-portrait",
   info: {
     year: "1999",
     materials: "Marble and Wood",
@@ -440,7 +441,8 @@ export const mother_child = {
     { source: "sculpture/mother-child_08.jpg" },
     { source: "sculpture/mother-child_09.jpg" },
     { source: "sculpture/mother-child_10.jpg" }
-  ]
+  ],
+  thumbnail: { source: "images2/mother-child_thumb.jpg" }
 };
 
 export const palestinian_girl_horse = {
@@ -928,7 +930,7 @@ export const she_is = {
     { source: "images2/new-stone-7.jpg" },
     { source: "images2/new-stone-8.jpg" },
   ],
-  thumbnail: { source: "images2/new-stone-2.jpg" }
+  thumbnail: { source: "images2/new-stone-4.jpg" }
 };
 
 export const space_hold_10_12 = {
@@ -1120,7 +1122,8 @@ export const stone_veil = {
     { source: "sculpture/stone-veil_08.jpg" },
     { source: "sculpture/stone-veil_09.jpg" },
     { source: "sculpture/stone-veil_10.jpg" }
-  ]
+  ],
+  thumbnail: { source: "images2/stone-veil_thumb.jpg" },
 };
 
 export const the_bone_is_first = {
@@ -1252,5 +1255,6 @@ export const v_posy = {
       captioning: [ "Detail." ]
     },
     { source: "sculpture/v-posy_11.jpg" },
-  ]
+  ],
+  thumbnail: { source: "images2/v-posy_thumb.jpg" },
 };

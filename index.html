@@ -1,0 +1,128 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>Herbert George Sculpture</title>
+
+    <meta charset="utf-8" />
+    <meta name="description" content="Portfolio website for sculptor Herbert George" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+  </head>
+
+  <body>
+    <header><style>
+      ul#top-nav-list {
+        /** reset default list styling */
+        list-style: none;
+      }
+
+      #top-nav-list {
+        align-items: baseline;
+        display: flex;
+        font-size: 1.3rem;
+        column-gap: 2em;
+      }
+
+      #top-nav-list .home {
+        flex-grow: 1;
+        font-size: 1.2em;
+      }
+
+      @media (max-width: 700px) {
+        #top-nav-list {
+          font-size: 1rem;
+          flex-wrap: wrap;
+          justify-content: center;
+          text-align: center;
+        }
+
+        #top-nav-list .home {
+          flex-basis: 100%;
+          margin-bottom: 0.5em;
+        }
+      }
+
+      .current {
+        text-decoration: underline;
+      }
+    </style>
+
+    <nav>
+      <ul id="top-nav-list" class="titular">
+        <li class="home"><a href="/website">Herbert George</a></li>
+        <!--li><a id="sculptures-link" href="/website">Sculptures</a></li>
+        <li><a id="writings-link" href="/website/writings.html">Writings</a></li>
+        <li><a id="resume-link" href="/website/resume.html">Résumé</a></li-->
+      </ul>
+    </nav>
+
+    <!--script>
+      const path = window.location.pathname;
+
+      if (path.startsWith("/website/writings")) {
+        document.getElementById("writings-link").classList.add("current");
+      } else if (path.startsWith("/website/resume")) {
+        document.getElementById("resume-link").classList.add("current");
+      } else {
+        document.getElementById("sculptures-link").classList.add("current");
+      }
+    </script-->
+    </header><main id="periods-main">
+      <nav id="periods">
+        <section class="highlight">
+          <a href="/periods/recent-work.html">
+            <h2>Recent Work</h2>
+            <img src="/images/images2/mother-child_thumb.jpg" alt="" />
+          </a>
+        </section>
+
+        <section class="past">
+          <a href="/periods/this-child.html">
+            <h2>This Child</h2>
+            <img src="/images/images2/stone_portrait-2_thumb.jpg" alt="" />
+          </a>
+          <a href="/periods/a-resemblance.html">
+            <h2>A Resemblance</h2>
+            <img src="/images/images2/stone_likeness-4_thumb.jpg" alt="" />
+          </a>
+          <a href="/periods/part-and-whole.html">
+            <h2>Part and Whole</h2>
+            <img src="/images/images2/pw3-thumb2.jpg" alt="" />
+          </a>
+          <a href="/periods/narrative-heads.html">
+            <h2>Narrative Heads</h2>
+            <img src="/images/series/narrative-heads_front.jpg" alt="" />
+          </a>
+          <a href="/periods/shadow-volume.html">
+            <h2>Shadow As Volume</h2>
+            <img src="/images/series/shadow-volume_front.jpg" alt="" />
+          </a>
+          <a href="/periods/memory-works.html">
+            <h2>Memory Works</h2>
+            <img src="/images/series/historical_front.jpg" alt="" />
+          </a>
+          <a href="/periods/space-screens.html">
+            <h2>Space-screens</h2>
+            <img src="/images/series/space-screens_front.jpg" alt="" />
+          </a>
+          <a href="/periods/space-holds.html">
+            <h2>Space-holds</h2>
+            <img src="/images/series/space-holds_front.jpg" alt="" />
+          </a>
+          <a href="/periods/membranes.html">
+            <h2>Membranes</h2>
+            <img src="/images/series/membranes_front.jpg" alt="" />
+          </a>
+          <a href="/periods/sited-works.html">
+            <h2>Sited Works</h2>
+            <img src="/images/images2/spaceholds_forest-clearing_thumb.jpg" alt="" />
+          </a>
+        </section>
+      </nav>
+    </main>
+
+    <script src="/scripts.js"></script>
+  </body>
+</html>
