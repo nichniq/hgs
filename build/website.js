@@ -30,6 +30,12 @@ const summary = period => ({
   image: paths.images(period.thumbnail.source),
 });
 
+const info_lines = (info = {}) => [
+  [ info.year, info.materials ].filter(x => x).join(". "),
+  info.dimensions,
+  ...(info.notes || []),
+].filter(x => x);
+
 page_at(
   "website/index.html",
 ).titled(
@@ -80,6 +86,7 @@ for (const period of [ recent_work, ...past_work ]) {
       templates.sculpture({
         title: sculpture.title,
         period: period.title,
+        info: info_lines(sculpture.info),
         captioning: sculpture.captioning,
         videos: (sculpture.videos || []).map(video => ({
           thumbnail: paths.images(video.thumbnail),

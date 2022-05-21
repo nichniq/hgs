@@ -1,7 +1,12 @@
 <main id="sculpture">
   <header>
+    <p class="titular">{{ period }}</p>
     <h2>{{ title }}</h2>
-    <p>{{ period }}</p>
+    <section class="info">
+      {{# info }}
+      <p>{{ . }}</p>
+      {{/ info}}
+    </section>
     {{# captioning }}
     <p>{{ . }}</p>
     {{/ captioning }}
@@ -22,7 +27,7 @@
     </ul>
   </nav>
 
-  <section>
+  <section class="full-images">
     {{# videos }}
     <video src="{{{ source }}}" controls></video>
     {{/ videos }}

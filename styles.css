@@ -291,14 +291,13 @@ h1, h2, h3, h4, h5, h6,
   cursor: pointer;
 }
 
-#sculpture section {
+#sculpture .full-images {
   grid-area: images;
   display: flex;
   justify-content: center;
 }
 
-#sculpture section video,
-#sculpture section img {
+#sculpture .full-images > * {
   display: none;
   max-height: calc(100vh - 1rem * 2);
 }
@@ -315,8 +314,7 @@ ul.undecorated {
     text-align: center;
   }
 
-  #sculpture section video,
-  #sculpture section img {
+  #sculpture .full-images > * {
     object-fit: contain;
     display: block !important;
   }
@@ -325,7 +323,7 @@ ul.undecorated {
     display: none;
   }
 
-  #sculpture section {
+  #sculpture .full-images {
     display: flex;
     flex-direction: column;
     gap: 1rem;
