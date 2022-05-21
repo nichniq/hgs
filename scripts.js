@@ -2,7 +2,10 @@ const sculpture_page = document.getElementById("sculpture");
 
 if (sculpture_page) {
   const thumbnails = sculpture_page.querySelectorAll("nav img");
-  const images = sculpture_page.querySelectorAll("section img");
+  const images = [
+    ...sculpture_page.querySelectorAll("section video"),
+    ...sculpture_page.querySelectorAll("section img"),
+  ];
 
   let selected_index = 0;
 

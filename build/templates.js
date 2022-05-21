@@ -35,10 +35,10 @@ export const periods = ({ highlight, periods }) => (
   )
 );
 
-export const sculpture = ({ title, period, captioning, images }) => (
+export const sculpture = ({ title, period, captioning, videos, images }) => (
   mustache.render(
     template("sculpture.mustache"),
-    { title, period, captioning, images }
+    { title, period, captioning, videos, images }
   )
 );
 

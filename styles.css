@@ -259,6 +259,7 @@ h1, h2, h3, h4, h5, h6,
   gap: 1rem;
 }
 
+#sculpture video,
 #sculpture img {
   max-width: 100%;
 }
@@ -296,6 +297,7 @@ h1, h2, h3, h4, h5, h6,
   justify-content: center;
 }
 
+#sculpture section video,
 #sculpture section img {
   display: none;
   max-height: calc(100vh - 1rem * 2);
@@ -313,6 +315,7 @@ ul.undecorated {
     text-align: center;
   }
 
+  #sculpture section video,
   #sculpture section img {
     object-fit: contain;
     display: block !important;

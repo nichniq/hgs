@@ -1105,6 +1105,12 @@ export const stone_veil = {
     materials: "Silk, Marble, Basswood",
     dimensions: "48″h. 13″w. 7″d."
   },
+  videos: [
+    {
+      source: "images2/stone-veil/stone-veil.mov",
+      thumbnail: "sculpture/stone-veil_05.jpg"
+    },
+  ],
   images: [
     { source: "sculpture/stone-veil_01.jpg" },
     {

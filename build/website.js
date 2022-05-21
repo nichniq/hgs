@@ -3,7 +3,6 @@ import markdown_it from "markdown-it";
 import { mkdir, rmdir, paths, load, save, website } from "./files.js";
 import * as templates from "./templates.js";
 import { recent_work, past_work } from "../data/periods.js";
-import * as sculptures from "../data/sculptures.js";
 
 const markdown_renderer = markdown_it();
 const markdown = content => markdown_renderer.render(content);
@@ -71,7 +70,7 @@ for (const period of [ recent_work, ...past_work ]) {
 
   // render a page for each sculpture
 
-  for (const sculpture of Object.values(sculptures)) {
+  for (const sculpture of Object.values(period.sculptures)) {
     page_at(
       `website/sculptures/${sculpture.id}.html`
     ).titled(
@@ -82,6 +81,10 @@ for (const period of [ recent_work, ...past_work ]) {
         title: sculpture.title,
         period: period.title,
         captioning: sculpture.captioning,
+        videos: (sculpture.videos || []).map(video => ({
+          thumbnail: paths.images(video.thumbnail),
+          source: paths.images(video.source)
+        })),
         images: sculpture.images.map(image => ({
           source: paths.images(image.source)
         })),

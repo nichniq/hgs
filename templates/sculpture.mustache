@@ -9,6 +9,11 @@
 
   <nav>
     <ul class="thumbnails undecorated">
+      {{# videos }}
+      <li>
+        <img src="{{{ thumbnail }}}" alt="" />
+      </li>
+      {{/ videos }}
       {{# images }}
       <li>
         <img src="{{{ source }}}" alt="" />
@@ -18,6 +23,9 @@
   </nav>
 
   <section>
+    {{# videos }}
+    <video src="{{{ source }}}" controls></video>
+    {{/ videos }}
     {{# images }}
     <img src="{{{ source }}}" alt="" />
     {{/ images }}
