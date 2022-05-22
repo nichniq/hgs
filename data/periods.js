@@ -1,4 +1,4 @@
-import * as sculptures from "./sculptures.js";
+import * as sculptures from "../data/sculptures.js";
 
 export const a_resemblance = {
   title: 'A Resemblance',

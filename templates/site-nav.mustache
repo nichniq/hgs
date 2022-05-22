@@ -37,19 +37,19 @@
 
 <nav>
   <ul id="top-nav-list" class="titular">
-    <li class="home"><a href="/website">Herbert George</a></li>
-    <li><a id="sculptures-link" href="/website">Sculptures</a></li>
-    <li><a id="writings-link" href="/website/writings.html">Writings</a></li>
-    <li><a id="resume-link" href="/website/resume.html">Résumé</a></li>
+    <li class="home"><a href="/">Herbert George</a></li>
+    <li><a id="sculptures-link" href="/">Sculptures</a></li>
+    <li><a id="writings-link" href="/writings.html">Writings</a></li>
+    <li><a id="resume-link" href="/resume.html">Résumé</a></li>
   </ul>
 </nav>
 
 <script>
   const path = window.location.pathname;
 
-  if (path.startsWith("/website/writings")) {
+  if (path.startsWith("/writings")) {
     document.getElementById("writings-link").classList.add("current");
-  } else if (path.startsWith("/website/resume")) {
+  } else if (path.startsWith("/resume")) {
     document.getElementById("resume-link").classList.add("current");
   } else {
     document.getElementById("sculptures-link").classList.add("current");
