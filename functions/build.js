@@ -24,6 +24,11 @@ function copy_images() {
   directory.copy(files.images(), files.www("images"))
 }
 
+function copy_static() {
+  file.copy(files.root("styles.css"), files.www("styles.css"));
+  file.copy(files.root("scripts.js"), files.www("scripts.js"));
+}
+
 function create_home() {
   const summary = period => ({
     link: links.periods(`${period.id}.html`),
@@ -102,13 +107,20 @@ function create_sculptures() {
   }
 }
 
-function copy_static() {
-  file.copy(files.root("styles.css"), files.www("styles.css"));
-  file.copy(files.root("scripts.js"), files.www("scripts.js"));
+function create_writings() {
+  page_at(
+    files.www("writings.html")
+  ).titled(
+    "Writings"
+  ).of(
+    `<header>${templates.site_nav()}</header>` +
+    templates.writings()
+  );
 }
 
 // refresh_output();
-create_home();
 // copy_images();
-create_sculptures();
 copy_static();
+create_home();
+create_sculptures();
+create_writings();

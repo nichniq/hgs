@@ -46,4 +46,10 @@ export const templates = {
       template("site-nav.mustache")
     )
   ),
+
+  writings: () => (
+    mustache.render(
+      template("writings.mustache")
+    )
+  )
 };
