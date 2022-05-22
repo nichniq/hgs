@@ -51,5 +51,11 @@ export const templates = {
     mustache.render(
       template("writings.mustache")
     )
+  ),
+
+  resume: () => (
+    mustache.render(
+      template("resume.mustache")
+    )
   )
 };

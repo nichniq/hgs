@@ -118,9 +118,21 @@ function create_writings() {
   );
 }
 
+function create_resume() {
+  page_at(
+    files.www("resume.html")
+  ).titled(
+    "Résumé"
+  ).of(
+    `<header>${templates.site_nav()}</header>` +
+    templates.resume()
+  );
+}
+
 // refresh_output();
 // copy_images();
 copy_static();
 create_home();
 create_sculptures();
 create_writings();
+create_resume();
