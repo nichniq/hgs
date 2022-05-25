@@ -306,6 +306,33 @@ ul.undecorated {
   list-style-type: none;
 }
 
+@media (min-width: 700px) {
+  #sculpture .full-images {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+  }
+
+  #sculpture .full-images::before,
+  #sculpture .full-images::after {
+    content: "";
+    flex: 0 0 30px;
+    aspect-ratio: 1;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100%);
+  }
+
+  #sculpture .full-images::before {
+    background-image: url('/images/sculpture/arrow-left.png');
+  }
+
+  #sculpture .full-images::after {
+    background-image: url('/images/sculpture/arrow-right.png');
+  }
+}
+
 @media (max-width: 700px) {
   #sculpture {
     display: flex;

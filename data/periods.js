@@ -168,7 +168,18 @@ export const sited_works = {
   sculptures: [
     sculptures.clearing_space_hold_forest,
     sculptures.innocent_victims_of_war
-  ]
+  ],
+  statement: `
+### Clearing, Space-hold, Forest
+
+A wedge-like construction half in a forest of trees, and half in the adjacent clearing. As you can see from the photos the wedge or V-like form was defined by a series of poles. At the point where the wedge intersects the forest/clearing, the poles support a curved wooden encloser. These boards have been cut so they conform to a forced illusory one-point perspective that either appears to compress or lengthen the interior volume of space within. The tops of all the poles are cut to define a flat plane relative to the sloping ground of the clearing. Of all the Space-holds I feel this was the most successful, in part because of the scale of the work. Here the viewer can walk within the sculpture and thus interact with it.
+
+### A Proposed Memorial to The Innocent Victims of War
+
+Of all the pieces I’ve made, this one is most important to me. The work is entitled: Memorial to The Innocent Victims of War (A Proposal) It’s a hexagonal building. Inside is a central water garden defined by a circular bench, centered below an oculus open to the sky. At each of the six corners will be one of my stone sculptures from the series: This Child (2004-2008) While these stone portrait heads endeavor to convey aspects of the devastating birth defects and death that Agent Orange exacted on innocent Vietnamese children and their families, the central garden personifies the healing power and beauty of nature. The essence of the Memorial is the opposition between these two forces. In total here is a place where the visitor may meditate on the profound and lasting consequences of each.
+
+I hope to have the opportunity to build the Memorial as its need has become ever more necessary.
+  `.trim()
 };
 
 export const space_holds = {

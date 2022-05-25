@@ -313,6 +313,11 @@ export const in_the_shadow_of_my_skin = {
 export const innocent_victims_of_war = {
   title: "Memorial To The Innocent Victims Of War",
   id: "memorial-to-the-innocent-victims-of-war",
+  info: {
+    year: "2004–2008",
+    materials: "Various Materials",
+    dimensions: "Thirty-five feet in diameter, fifteen feet high."
+  },
   images: [
     { source: "sculpture/memorial-22.jpg" },
     { source: "sculpture/memorial-01.jpg" },

@@ -40,4 +40,23 @@ if (sculpture_page) {
       );
     }
   })
+
+  document.querySelector(".full-images").addEventListener("click", e => {
+    const { x } = e;
+    const section = e.target.closest(".full-images");
+    const { left, width } = section.getBoundingClientRect();
+    const center = (width - left) / 2;
+
+    if (x <= center) {
+      select_image(
+        selected_index === 0 ? images.length - 1 : selected_index - 1
+      );
+    }
+
+    if (x > center) {
+      select_image(
+        selected_index === images.length - 1 ? 0 : selected_index + 1
+      );
+    }
+  });
 }
