@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6,
   flex: 0 0 350px;
 }
 
-@media (max-width: calc(350px * 2 + 6rem)) {
+@media (max-width: 800px) {
   #period #text {
     flex-grow: 1;
   }
