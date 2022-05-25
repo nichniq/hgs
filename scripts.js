@@ -13,7 +13,7 @@ if (sculpture_page) {
     images[selected_index].style.display = null;
     thumbnails[selected_index].parentElement.style.outline = null;
 
-    images[index].style.display = "block";
+    images[index].style.display = "revert";
     thumbnails[index].parentElement.style.outline = "1px solid white";
 
     selected_index = index;

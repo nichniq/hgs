@@ -262,6 +262,8 @@ h1, h2, h3, h4, h5, h6,
 #sculpture video,
 #sculpture img {
   max-width: 100%;
+  object-fit: contain;
+  object-position: top;
 }
 
 #sculpture header {
@@ -306,7 +308,7 @@ ul.undecorated {
   list-style-type: none;
 }
 
-@media (min-width: 700px) {
+/*@media (min-width: 700px) {
   #sculpture .full-images {
     align-items: center;
     display: flex;
@@ -331,7 +333,7 @@ ul.undecorated {
   #sculpture .full-images::after {
     background-image: url('/images/sculpture/arrow-right.png');
   }
-}
+}*/
 
 @media (max-width: 700px) {
   #sculpture {
