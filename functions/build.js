@@ -60,6 +60,7 @@ function create_sculptures() {
   ].filter(x => x);
 
   for (const period of [ recent_work, ...past_work ]) {
+
     // render a page for each period
 
     page_at(
@@ -80,7 +81,7 @@ function create_sculptures() {
       })
     )
 
-    // render a page for each sculpture
+    // render a page for each of the period's sculptures
 
     for (const sculpture of Object.values(period.sculptures)) {
       page_at(

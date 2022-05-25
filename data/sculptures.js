@@ -11,7 +11,7 @@ export const blind_hand_l_sander = {
     { source: "sculpture/narrative_sander_02.jpg" },
     { source: "sculpture/narrative_sander_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/narrative_sander_front.jpg" }
+  thumbnail: { source: "images2/narrative_sander_thumb.jpg" }
 };
 
 export const butades_mirror = {
@@ -27,7 +27,7 @@ export const butades_mirror = {
     { source: "sculpture/shadow_butades_02.jpg" },
     { source: "sculpture/shadow_butades_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/shadow_butades_front.jpg" }
+  thumbnail: { source: "images2/shadow_butades_thumb.jpg" }
 };
 
 export const clearing_space_hold_forest = {
@@ -70,7 +70,7 @@ export const composite_likeness_1 = {
     { source: "sculpture/stone_likeness-1_02.jpg" },
     { source: "sculpture/stone_likeness-1_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/stone_likeness-1_front.jpg" }
+  thumbnail: { source: "images2/stone_likeness-1_thumb.jpg" }
 };
 
 export const composite_likeness_2 = {
@@ -90,7 +90,7 @@ export const composite_likeness_2 = {
     { source: "sculpture/stone_likeness-2_02.jpg" },
     { source: "sculpture/stone_likeness-2_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/stone_likeness-2_front.jpg" }
+  thumbnail: { source: "images2/stone_likeness-2_thumb.jpg" }
 };
 
 export const composite_likeness_4 = {
@@ -114,7 +114,7 @@ export const composite_likeness_4 = {
     },
     { source: "sculpture/stone_likeness-4_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/stone_likeness-4_front.jpg" },
+  thumbnail: { source: "images2/stone-likeness-4_thumb.jpg" },
   rotations: [
     { source: "rotate/stone_likeness-4_01_rotate.jpg" },
     { source: "rotate/stone_likeness-4_02_rotate.jpg" },
@@ -146,7 +146,7 @@ export const composite_likeness_5 = {
     { source: "sculpture/stone_likeness-5_02.jpg" },
     { source: "sculpture/stone_likeness-5_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/stone_likeness-5_front.jpg" },
+  thumbnail: { source: "images2/stone-likeness-5_thumb.jpg" },
   rotations: [
     { source: "rotate/stone_likeness-5_01_rotate.jpg" },
     { source: "rotate/stone_likeness-5_02_rotate.jpg" },
@@ -184,7 +184,7 @@ export const composite_likeness_6 = {
     },
     { source: "sculpture/stone_likeness-6_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/stone_likeness-6_front.jpg" }
+  thumbnail: { source: "images2/stone-likeness-6_thumb.jpg" }
 };
 
 export const composite_likeness_7 = {
@@ -205,7 +205,7 @@ export const composite_likeness_7 = {
       captioning: [ "Detail." ]
     }
   ],
-  thumbnail: { source: "sculpture-cover/stone_likeness-7_front.jpg" }
+  thumbnail: { source: "sculpture/stone_likeness-7_01.jpg" }
 };
 
 export const do_with_with_a_knife = {
@@ -219,7 +219,8 @@ export const do_with_with_a_knife = {
   images: [
     { source: "sculpture/shadow_knife_01.jpg" },
     { source: "sculpture/shadow_knife_02.jpg" }
-  ]
+  ],
+  thumbnail: { source: "sculpture/shadow_knife_01.jpg" }
 };
 
 export const double_portrait_mondrian = {
@@ -306,7 +307,7 @@ export const in_the_shadow_of_my_skin = {
   images: [
     { source: "sculpture/shadow_skin_01.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/shadow_skin_front.jpg" }
+  thumbnail: { source: "images2/shadow_skin_thumb.jpg" }
 };
 
 export const innocent_victims_of_war = {
@@ -367,7 +368,7 @@ export const kertesz_mondrian_portrait = {
     { source: "sculpture/narrative_kertesz-mondrian_02.jpg" },
     { source: "sculpture/narrative_kertesz-mondrian_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/narrative_kertesz-mondrian_front.jpg" }
+  thumbnail: { source: "images2/narrative_kertesz-mondrian_thumb.jpg" }
 };
 
 export const light_reflection_space = {
@@ -484,7 +485,7 @@ export const part_and_whole_1 = {
     { source: "sculpture/stone_part-whole-1_04.jpg" },
     { source: "sculpture/stone_part-whole-1_05.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/stone_part-whole-1_front.jpg" },
+  thumbnail: { source: "images2/stone_part-whole-1_thumb.jpg" },
   rotations: [
     { source: "rotate/stone_part-whole-1_01_rotate.jpg" },
     { source: "rotate/stone_part-whole-1_02_rotate.jpg" },
@@ -521,7 +522,7 @@ export const part_and_whole_2 = {
     { source: "sculpture/pw2-07.jpg" },
     { source: "sculpture/pw2-08.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/pw2-detail.jpg" }
+  thumbnail: { source: "images2/pw2_thumb.jpg" }
 };
 
 export const part_and_whole_3 = {
@@ -541,7 +542,7 @@ export const part_and_whole_3 = {
     { source: "sculpture/pw3-07.jpg" },
     { source: "sculpture/pw3-10.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/pw3-detail.jpg" }
+  thumbnail: { source: "images2/pw3_thumb.jpg" }
 };
 
 export const part_and_whole_4 = {
@@ -589,7 +590,7 @@ export const portrait_fragment_1 = {
     },
     { source: "sculpture/stone_portrait-frag-1_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/stone_portrait-frag-1_front.jpg" }
+  thumbnail: { source: "images2/stone_portrait-1_thumb.jpg" }
 };
 
 export const portrait_fragment_2 = {
@@ -609,7 +610,7 @@ export const portrait_fragment_2 = {
     },
     { source: "sculpture/stone_portrait-frag-2_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/stone_portrait-frag-2_front.jpg" },
+  thumbnail: { source: "images2/stone_portrait-2_thumb.jpg" },
   rotations: [
     { source: "rotate/stone_portrait-frag_01_rotate.jpg" },
     { source: "rotate/stone_portrait-frag_02_rotate.jpg" },
@@ -640,7 +641,7 @@ export const portrait_fragment_3 = {
     { source: "sculpture/stone_portrait-frag-3_02.jpg" },
     { source: "sculpture/stone_portrait-frag-3_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/stone_portrait-frag-3_front.jpg" }
+  thumbnail: { source: "images2/stone_portrait-3_thumb.jpg" }
 };
 
 export const portrait_fragment_4 = {
@@ -660,7 +661,7 @@ export const portrait_fragment_4 = {
     },
     { source: "sculpture/stone_portrait-frag-4_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/stone_portrait-frag-4_front.jpg" }
+  thumbnail: { source: "images2/stone_portrait-4_thumb.jpg" }
 };
 
 export const portrait_fragment_5 = {
@@ -680,7 +681,7 @@ export const portrait_fragment_5 = {
     { source: "sculpture/stone_portrait-frag-5_02b.jpg" },
     { source: "sculpture/stone_portrait-frag-5_03b.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/stone_portrait-frag-5_front.jpg" }
+  thumbnail: { source: "images2/this-child-5_thumb.jpg" }
 };
 
 export const portrait_fragment_6 = {
@@ -696,7 +697,7 @@ export const portrait_fragment_6 = {
     { source: "sculpture/stone_portrait-frag-6_02.jpg" },
     { source: "sculpture/stone_portrait-frag-6_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/stone_portrait-frag-6_front.jpg" }
+  thumbnail: { source: "images2/stone_portrait-6_thumb.jpg" }
 };
 
 export const portrait_fragment_7 = {
@@ -716,7 +717,7 @@ export const portrait_fragment_7 = {
     { source: "sculpture/stone_portrait-frag-7_02.jpg" },
     { source: "sculpture/stone_portrait-frag-7_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/stone_portrait-frag-7_front.jpg" }
+  thumbnail: { source: "images2/stone_portrait-7_thumb.jpg" }
 };
 
 export const proposal_for_lincoln_center = {
@@ -731,7 +732,8 @@ export const proposal_for_lincoln_center = {
     { source: "sculpture/spacescreens_julliard_01.jpg" },
     { source: "sculpture/spacescreens_julliard_02.jpg" },
     { source: "sculpture/spacescreens_julliard_03.jpg" }
-  ]
+  ],
+  thumbnail: { source: "images2/spacescreens_julliard_thumb.jpg" }
 };
 
 export const proposal_for_moma_garden = {
@@ -746,7 +748,8 @@ export const proposal_for_moma_garden = {
     { source: "sculpture/spacescreens_moma_01.jpg" },
     { source: "sculpture/spacescreens_moma_02.jpg" },
     { source: "sculpture/spacescreens_moma_03.jpg" }
-  ]
+  ],
+  thumbnail: { source: "images2/spacescreens_moma_thumb.jpg" },
 };
 
 export const rodchenko_blind_site = {
@@ -762,7 +765,7 @@ export const rodchenko_blind_site = {
     { source: "sculpture/narrative_rodchenko_02.jpg" },
     { source: "sculpture/narrative_rodchenko_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/narrative_rodchenko_front.jpg" }
+  thumbnail: { source: "images2/narrative_rodchenko_thumb.jpg" }
 };
 
 export const run_like_a_boy = {
@@ -808,7 +811,7 @@ export const shadow_between_voice_and_presence = {
     { source: "sculpture/shadow_voice-presence_02.jpg" },
     { source: "sculpture/shadow_voice-presence_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/shadow_voice-presence_front.jpg" }
+  thumbnail: { source: "images2/shadow_voice-presence_thumb.jpg" }
 };
 
 export const shadow_for_james_g = {
@@ -823,7 +826,7 @@ export const shadow_for_james_g = {
     { source: "sculpture/shadow_james-g_01.jpg" },
     { source: "sculpture/shadow_james-g_02.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/shadow_james-g_front.jpg" }
+  thumbnail: { source: "images2/shadow_james-g_thumb.jpg" }
 };
 
 export const shadow_of_an_offering = {
@@ -842,7 +845,7 @@ export const shadow_of_an_offering = {
     { source: "sculpture/shadow_offering_02.jpg" },
     { source: "sculpture/shadow_offering_03.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/shadow_offering_front.jpg" }
+  thumbnail: { source: "images2/shadow_offering_thumb.jpg" }
 };
 
 export const shadow_of_chamissos_bottle = {
@@ -874,7 +877,7 @@ export const shadow_of_chamissos_bottle = {
       captioning: [ "Although invisible in most situations, the shadow is more than the darkened silhouette that we assume it to be. In actuality it is a light-less volume that extends from the object blocking the light all the way to the surface that its image is projected onto. This photograph was made by blowing water vapor up from below, passing through a screen-top table and so reveling the bottle's full shadow." ]
     }
   ],
-  thumbnail: { source: "sculpture-cover/shadow_chamisso_front.jpg" }
+  thumbnail: { source: "images2/shadow_chamisso_thumb.jpg" }
 };
 
 export const shadow_of_the_crow = {
@@ -891,7 +894,7 @@ export const shadow_of_the_crow = {
   images: [
     { source: "sculpture/shadow_crow_01.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/shadow_crow_front.jpg" }
+  thumbnail: { source: "images2/shadow_crow_thumb.jpg" }
 };
 
 export const shadow_portraits_of_eileen_gray = {
@@ -946,7 +949,8 @@ export const space_hold_10_12 = {
   images: [
     { source: "sculpture/spaceholds_spacehold-10-11_01.jpg" },
     { source: "sculpture/spaceholds_spacehold-10-11_02.jpg" }
-  ]
+  ],
+  thumbnail: { source: "sculpture/spaceholds_spacehold-10-11_01.jpg" },
 };
 
 export const space_hold_ascend_desend = {
@@ -960,7 +964,8 @@ export const space_hold_ascend_desend = {
   images: [
     { source: "sculpture/spaceholds_ascend-descend_01.jpg" },
     { source: "sculpture/spaceholds_ascend-descend_02.jpg" }
-  ]
+  ],
+  thumbnail: { source: "images2/spaceholds_ascend-descend_thumb.jpg" },
 };
 
 export const space_hold_descend_ascend = {
@@ -974,7 +979,7 @@ export const space_hold_descend_ascend = {
   images: [
     { source: "sculpture/spaceholds_descend-ascend_01.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/spaceholds_descend-ascend_front.jpg" }
+  thumbnail: { source: "images2/spaceholds_descend-ascend_thumb.jpg" }
 };
 
 export const space_hold_fugue = {
@@ -988,7 +993,7 @@ export const space_hold_fugue = {
   images: [
     { source: "sculpture/spaceholds_fugue_01.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/spaceholds_fugue_front.jpg" }
+  thumbnail: { source: "images2/spaceholds_fugue_thumb.jpg" }
 };
 
 export const space_hold_membrane_1 = {
@@ -1034,7 +1039,7 @@ export const space_hold_trisegment_7_8 = {
   images: [
     { source: "sculpture/spaceholds_trisegment-7-8_01.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/spaceholds_trisegment-7-8_front.jpg" }
+  thumbnail: { source: "images2/spaceholds_trisegment-7-8_thumb.jpg" }
 };
 
 export const space_hold_weir = {
@@ -1049,7 +1054,7 @@ export const space_hold_weir = {
     { source: "sculpture/spaceholds_weir_01.jpg" },
     { source: "sculpture/spaceholds_weir_02.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/spaceholds_weir_front.jpg" }
+  thumbnail: { source: "images2/spaceholds_weir_thumb.jpg" }
 };
 
 export const space_screen_4 = {
@@ -1064,7 +1069,7 @@ export const space_screen_4 = {
     { source: "sculpture/spacescreens_screen-4_01.jpg" },
     { source: "sculpture/spacescreens_screen-4_02.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/spacescreens_screen-4_front.jpg" }
+  thumbnail: { source: "images2/spacescreens_screen-4_thumb.jpg" }
 };
 
 export const space_screen_6 = {
@@ -1079,7 +1084,7 @@ export const space_screen_6 = {
     { source: "sculpture/spacescreens_screen-6_01.jpg" },
     { source: "sculpture/spacescreens_screen-6_02.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/spacescreens_screen-6_front.jpg" }
+  thumbnail: { source: "images2/spacescreens_screen-6_thumb.jpg" }
 };
 
 export const space_screen_7 = {
@@ -1094,7 +1099,7 @@ export const space_screen_7 = {
     { source: "sculpture/spacescreens_screen-7_01.jpg" },
     { source: "sculpture/spacescreens_screen-7_02.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/spacescreens_screen-7_front.jpg" }
+  thumbnail: { source: "images2/spacescreens_screen-7_thumb.jpg" }
 };
 
 export const stone_veil = {
@@ -1158,7 +1163,7 @@ export const the_eye_and_the_hand = {
     { source: "sculpture/shadow_eye-hand_01.jpg" },
     { source: "sculpture/shadow_eye-hand_02.jpg" }
   ],
-  thumbnail: { source: "sculpture-cover/shadow_eye-hand_front.jpg" }
+  thumbnail: { source: "images2/shadow_eye-hand_thumb.jpg" }
 };
 
 export const the_lapith = {
