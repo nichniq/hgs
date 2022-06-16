@@ -1,5 +1,7 @@
 # Herbert George Sculpture
 
+[www.herbertgeorgesculpture.com](www.herbertgeorgesculpture.com)
+
 ## Files and dependencies
 
 - `data` contains all of the data about Herbert's work
@@ -41,7 +43,14 @@ To build the website and view it locally:
 2. In `paths.js`, update `pwd` to wherever you put this repo
 3. Run `node functions/build.js`
 4. Navigate to the newly created `www` output directory
-5. Run `python -m SimpleHTTPServer` (or an equivalent)
+5. Run `python -m SimpleHTTPServer 8000` (or an equivalent)
+6. Visit `localhost:8000`
+
+## Publishing changes
+
+Files are uploaded to my service provider via SFTP. See me for credentials.
+
+SSH/SFTP Hostname: `ssh.phx.nearlyfreespeech.net`
 
 ## Remaining work
 
@@ -60,3 +69,5 @@ than others.
   - I think these could be defined as coordinates in `data` and then generated
 - Revisit the scripts for navigating sculpture images
 - Get the `pwd` automatically instead of manually defining it in `paths.js`
+- Add certification for `https`
+- Improve font loading
