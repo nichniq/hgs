@@ -1,3 +1,5 @@
+'use strict';
+
 const sculpture_page = document.getElementById("sculpture");
 
 if (sculpture_page) {
